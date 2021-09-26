@@ -1,0 +1,13 @@
+.centered {
+  text-align: center;
+}
+
+.label {
+  margin-top: 0;
+  font-size: 0.75rem;
+}
+
+.description {
+  width: 32rem;
+  margin: auto;
+}

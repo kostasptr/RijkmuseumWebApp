@@ -1,30 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+import Details from './Details';
+import Home from './Home';
 import './App.css';
 
 function App() {
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [items, setItems] = useState([]);
-  const key = "sbWDOeax";
-  useEffect(() => {
-  fetch(`https://www.rijksmuseum.nl/api/nl/collection?key=${key}&q=Rembrandt`)
-          .then(response => response.json())
-          .then(
-            (result) => {
-              setIsLoaded(true);
-              setItems(result);
-              console.log(result);
-            })
-          // .then((data) => console.log(data));
-  },[])
-
-  if (!isLoaded) {
-    return <div>Loading...</div>;
-  } else {
-  
-    return(
-        <h1>{items}</h1>
-    )
-    }
-  
+  return (
+    <Router>
+      <div>
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/details/:id">
+            <Details />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
 }
-  export default App;
+
+export default App;

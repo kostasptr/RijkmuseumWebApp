@@ -1,0 +1,41 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+.margin1 {
+  margin: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pagination a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6c7ac9;
+  color: #6c7ac9;
+}
+
+.pagination li {
+  font-weight: bold;
+}
+
+.pagination li.active a {
+  color: #fff;
+  background: #6c7ac9;
+}
+
+.pagination li.disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
