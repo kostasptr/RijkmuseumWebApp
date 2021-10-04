@@ -28,20 +28,29 @@ function Details() {
   if (!isLoaded) {
     return <div>Loading...</div>;
   } else {
-    const {principalMaker, title, webImage, scLabelLine, plaqueDescriptionEnglish} = result;
+    const { title, webImage, scLabelLine, plaqueDescriptionEnglish} = result;
     return(
-      <div>
-        <Link to="/">
-          <button>Back</button>
-        </Link>
+      <div className="flexDetailContent">
 
-        <h1 className="centered">{title}</h1>
-        <h2 className="centered">{principalMaker}</h2>
 
-        <img src={webImage?.url} alt={title} width="100%" />
-        <p className="centered label">{scLabelLine}</p>
+          <div className="detailImageContainer">
+            <img src={webImage?.url} alt={title} className="detailImage"/>
+          </div>
 
-        <p className="description">{plaqueDescriptionEnglish}</p>
+          <div className="detailTextContainer">
+            {/* <div className="centerInnerContainer"> */}
+              <h1 className="titleOfImage">{title}</h1>
+              <p className="labelOfImage">{scLabelLine}</p>
+              <p className="descriptionOfImage">{plaqueDescriptionEnglish}</p>
+              <div>
+              <Link to="/">
+                <button className="button2">BACK</button>
+              </Link>
+              </div>
+            {/* </div> */}
+          </div> 
+
+
       </div>
     )
   }
