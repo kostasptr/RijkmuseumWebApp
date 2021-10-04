@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/rijksmuseum/static/css/main.5adf2df3.chunk.css",
-    "main.js": "/rijksmuseum/static/js/main.958a6c98.chunk.js",
-    "main.js.map": "/rijksmuseum/static/js/main.958a6c98.chunk.js.map",
+    "main.css": "/rijksmuseum/static/css/main.6110de7e.chunk.css",
+    "main.js": "/rijksmuseum/static/js/main.b765db8c.chunk.js",
+    "main.js.map": "/rijksmuseum/static/js/main.b765db8c.chunk.js.map",
     "runtime-main.js": "/rijksmuseum/static/js/runtime-main.3a60ab29.js",
     "runtime-main.js.map": "/rijksmuseum/static/js/runtime-main.3a60ab29.js.map",
-    "static/js/2.25f44db3.chunk.js": "/rijksmuseum/static/js/2.25f44db3.chunk.js",
-    "static/js/2.25f44db3.chunk.js.map": "/rijksmuseum/static/js/2.25f44db3.chunk.js.map",
+    "static/js/2.36ba89ec.chunk.js": "/rijksmuseum/static/js/2.36ba89ec.chunk.js",
+    "static/js/2.36ba89ec.chunk.js.map": "/rijksmuseum/static/js/2.36ba89ec.chunk.js.map",
     "static/js/3.056622b1.chunk.js": "/rijksmuseum/static/js/3.056622b1.chunk.js",
     "static/js/3.056622b1.chunk.js.map": "/rijksmuseum/static/js/3.056622b1.chunk.js.map",
     "index.html": "/rijksmuseum/index.html",
-    "static/css/main.5adf2df3.chunk.css.map": "/rijksmuseum/static/css/main.5adf2df3.chunk.css.map",
-    "static/js/2.25f44db3.chunk.js.LICENSE.txt": "/rijksmuseum/static/js/2.25f44db3.chunk.js.LICENSE.txt"
+    "static/css/main.6110de7e.chunk.css.map": "/rijksmuseum/static/css/main.6110de7e.chunk.css.map",
+    "static/js/2.36ba89ec.chunk.js.LICENSE.txt": "/rijksmuseum/static/js/2.36ba89ec.chunk.js.LICENSE.txt",
+    "static/media/image-header3.dd4b0a84.jpg": "/rijksmuseum/static/media/image-header3.dd4b0a84.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3a60ab29.js",
-    "static/js/2.25f44db3.chunk.js",
-    "static/css/main.5adf2df3.chunk.css",
-    "static/js/main.958a6c98.chunk.js"
+    "static/js/2.36ba89ec.chunk.js",
+    "static/css/main.6110de7e.chunk.css",
+    "static/js/main.b765db8c.chunk.js"
   ]
 }
