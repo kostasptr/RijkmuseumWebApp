@@ -1,4 +1,6 @@
-# Rijksmuseum webapp
+# 3rd project #
+
+### Rijksmuseum webapp ###
 
 - Rijksmuseum API
 - Create react app
